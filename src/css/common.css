@@ -16,3 +16,22 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.timer {
+  display: flex;
+}
+
+.timer :first-child {
+  padding-left: 0px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+}
+
+.value {
+  font-size: 30px;
+  margin: 0 auto;
+}
